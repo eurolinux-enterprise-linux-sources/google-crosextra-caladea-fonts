@@ -1,3 +1,4 @@
-# ELS - Enterprise Linux/EuroLinux Sources - google-crosextra-caladea-fonts 
+# ELS - Enterprise Linux/EuroLinux Sources - google-crosextra-caladea-fonts
+ 
 ## Usage:
-  Checkout branch or tag.
+  Checkout branch or tag. Use `make sources` to recreate  SOURCE0 archive.
