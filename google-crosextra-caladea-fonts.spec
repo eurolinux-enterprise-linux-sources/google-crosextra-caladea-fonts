@@ -6,8 +6,8 @@
 
 Name:           %{fontname}-fonts
 Version:        1.002
-Release:        0.2.20130214%{?dist}
-Summary:        Sans-serif font metric-compatible with Cambria font
+Release:        0.4.20130214%{?dist}
+Summary:        Serif font metric-compatible with Cambria font
 
 Group:          User Interface/X
 # License added in font as "otfinfo -i Caladea-Regular.ttf | grep License"
@@ -23,7 +23,7 @@ BuildRequires:  fontpackages-devel
 Requires:       fontpackages-filesystem
 
 %description
-Caladea is metric-compatible with Cambria font. This font is sans-serif
+Caladea is metric-compatible with Cambria font. This font is a serif
 typeface family based on Lato.
 
 %prep
@@ -57,6 +57,12 @@ ln -s %{_fontconfig_templatedir}/%{fontconf62}-fontconfig.conf \
 
 
 %changelog
+* Thu Jan 23 2014 Parag Nemade <pnemade AT redhat DOT com> - 1.002-0.4.20130214
+- Resolves:rh#1056030 - Fontconfig and summary required fixes
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.002-0.3.20130214
+- Mass rebuild 2013-12-27
+
 * Tue Oct 15 2013 Parag Nemade <pnemade AT redhat DOT com> - 1.002-0.2.20130214
 - Added license information in comments
 
